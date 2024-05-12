@@ -10,13 +10,13 @@ With the library that generate JWT "jsonwebtoken"
 
 ## Usage
 Using Postman
-// Register path"/api/user/register"
+1. Register path"/api/user/register"
 User json
 {
     "username": "user",
     "password": "test"
 }
-// Login path"/api/user/login", this will return the token generated from JWT
+2. Login path"/api/user/login", this will return the token generated from JWT
 User json
 {
     "username": "user",
